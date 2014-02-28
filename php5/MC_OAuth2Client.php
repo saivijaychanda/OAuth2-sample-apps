@@ -10,11 +10,11 @@ class MC_OAuth2Client extends OAuth2Client {
     public function __construct() {
 
         //basically, your redirect_url
-        $base =  'YOUR-HOST.com';   //your host
+        $base =  'localhost.com';   //your host
         $path = '/path/onyourhost/complete.php'; //the path on your host
             
-        $client_id = 'YOUR_CLIENT_ID';   //client_id from creating app in MC (see README)
-        $client_secret = 'YOUR_CLIENT_SECRET'; //client_secret from creating app in MC  (see README)
+        $client_id = '668552250415';   //client_id from creating app in MC (see README)
+        $client_secret = 'd993c7a8d85f65e2e3b66d8383138f51'; //client_secret from creating app in MC  (see README)
 
         $config = array('client_id'=>$client_id, 'client_secret'=>$client_secret,
                         'authorize_uri'=>'https://login.mailchimp.com/oauth2/authorize',
